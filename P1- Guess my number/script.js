@@ -72,9 +72,6 @@ document.querySelector('.check').addEventListener('click', function () {
 document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('body').style.backgroundColor = '#333';
 
-  // set highscore
-  // document.querySelector('.highscore').textContent = score;
-
   // set score to zero(0) and print in the score value
   score = 20;
   document.querySelector('.score').textContent = score;
